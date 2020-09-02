@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="summer-framework">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/e-commerce_statistic_project/lib/summer-framework-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
