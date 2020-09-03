@@ -18,7 +18,7 @@ object SparkStreaming06_KafkaSource {
 
     //TODO 使用SparkStreaming读取Kafka的数据
 
-    val kafkaParams = Map[String, Object](
+    val kafkaParams: Map[String, Object] = Map[String, Object](
       ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG -> "hadoop101:9092,hadoop102:9092,hadoop103:9092",
       ConsumerConfig.GROUP_ID_CONFIG -> "chanzany",
       ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG -> "org.apache.kafka.common.serialization.StringDeserializer",
